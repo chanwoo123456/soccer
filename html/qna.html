@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>문의 - SOCCER TRAVEL</title>
+  <link rel="stylesheet" href="../css/style8.css">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="top-inner">
+      <div class="logo-box">
+        <img src="../logo.png" alt="로고">
+        <a href="../index.html" class="site-title">SOCCER TRAVEL</a>
+      </div>
+      <ul class="menu">
+        <li class="has-submenu">
+          <a href="#">EPL</a>
+          <ul class="submenu">
+            <li><a href="oldtrafford.html">맨유 홈구장 투어</a></li>
+            <li><a href="lester.html">레스터 홈구장 투어</a></li>
+            <li><a href="emirates.html">아스널 홈구장 투어</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a href="#">LA LIGA</a>
+          <ul class="submenu">
+            <li><a href="campnu.html">BARCA 홈구장 투어</a></li>
+            <li><a href="real.html">REAL 홈구장 투어</a></li>
+            <li><a href="atletico.html">AT 홈구장 투어</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">문의</a></li>
+      </ul>
+      <div class="login-btn">
+        <a href="#login">로그인</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="contact">
+    <h2>❓ 자주 묻는 질문 (FAQ)</h2>
+    <ul>
+      <li><strong>Q.</strong> 투어는 어지 운영되나요?<br><strong>A.</strong> 각 구장의 공식 일정에 따라 다른데, 페이지 내 링크로 확인 가능합니다.</li>
+      <li><strong>Q.</strong> 투어 예약은 어디서 하나요?<br><strong>A.</strong> 각 구단의 공식 웹사이트에서 가능합니다.</li>
+      <li><strong>Q.</strong> 환불은 가능한가요?<br><strong>A.</strong> 보통 투어 3일 전까지 가능합니다. 예약처 환불 규정을 확인해주세요.</li>
+    </ul>
+
+    <h2>📧 직접 문의하기</h2>
+    <form>
+      <input type="text" placeholder="이름 입력">
+      <input type="email" placeholder="이메일 입력">
+      <textarea placeholder="문의 내용을 입력해주세요" rows="5"></textarea>
+      <button type="submit">문의 보내기</button>
+    </form>
+
+    <div class="footer-info">
+      <h2>📞 고객센터</h2>
+      <p>운영시간: 월–금 10:00–18:00 (주말/공휴일 제외)</p>
+      <p>이메일: larry88896@tour.com</p>
+      <p>전화: 010-1234-1234</p>
+    </div>
+  </main>
+
+  <div class="login-box" id="login">
+    <a href="#" class="close-btn">×</a>
+    <h2>로그인</h2>
+    <form>
+      <input type="text" placeholder="아이디 입력">
+      <input type="password" placeholder="비밀번호 입력">
+      <button type="submit">로그인</button>
+    </form>
+    <div class="login-links">
+      <a href="#">아이디 찾기</a>
+      <a href="#">비밀번호 찾기</a>
+      <a href="#">회원가입</a>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>E-mail: larry88896@tour.com 전화번호: 010-1234-1234</p>
+  </footer>
+   <script>
+    function handleSubmit(event) {
+      event.preventDefault();
+      alert("문의가 접수되었습니다.");
+      event.target.reset();
+      return false;
+    }
+  </script>
+</body>
+</html>
